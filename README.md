@@ -43,7 +43,9 @@
 ### Output: 2
 
 
-We can see that most of the predictions are wrong. The pre-saved model was trained on the MNIST handwritten digits dataset. So even when we grey-scale the colored images, the model is not able to clearly recognize the digit and almost always seems to give 8 as the output.
+We can see that most of the predictions are wrong. The pre-saved model was trained on the MNIST handwritten digits dataset. So even when we grey-scale the colored images, the model cannot clearly recognize the digit and almost always seems to give 8 as the output.
+
+Some sample MNIST images are also provided, and the model can recognize them easily. Please feel free to try this.
 
 
 ### Image of FastAPI and SwaggerUI is shown for reference (for uploading an image):
